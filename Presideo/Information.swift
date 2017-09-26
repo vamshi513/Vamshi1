@@ -74,6 +74,9 @@ class Information: UITableViewController {
         cell.nameLbal?.text = nameValue
         cell.nameLbal?.textColor = UIColor.blue
         
+        print("any new commits")
+        
+        
      
 
         return cell

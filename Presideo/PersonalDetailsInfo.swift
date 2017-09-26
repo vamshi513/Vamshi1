@@ -18,7 +18,7 @@ class PersonalDetailsInfo: UITableViewCell {
         super.awakeFromNib()
         
         // Initialization code
-        
+          print("any new commits")
       
     }
    
