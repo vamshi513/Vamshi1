@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Presideo Poragandlu"
+       self.navigationController?.navigationBar.tintColor = UIColor.orange
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.blue]  
         // Do any additional setup after loading the view, typically from a nib.
     }
 
