@@ -24,6 +24,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("hai Hello")
     }
     func LoginSystem()  {
         if userIdTxtFld.text == "Prakash" && passWordTxtFld.text == "1234"{
